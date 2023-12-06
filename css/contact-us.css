@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.contakt {
+  margin-bottom: 129px;
+}
+.contakt .contakt__input {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.contakt .contakt__input .ikon ul {
+  padding: 20px;
+  border: 1px solid #AAA;
+  border-radius: 8px;
+}
+.contakt .contakt__input .input-grop {
+  border: 1px solid #AAA;
+  padding: 20px 20px 0 20px;
+  border-radius: 8px;
+}
+
+.card-us {
+  margin-bottom: 320px;
+}
+.card-us__titule {
+  text-align: center;
+}
+.card-us__cart {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 320px;
+}

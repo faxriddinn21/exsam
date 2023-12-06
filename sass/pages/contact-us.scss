@@ -1,0 +1,41 @@
+@use "../global";
+@use"../utils/mixins.scss" as mx;
+
+
+.contakt{
+  margin-bottom: 129px;
+  .contakt__input{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    .ikon ul{
+      padding: 20px;
+      border: 1px solid#AAA;
+      border-radius: 8px;
+    }
+    .input-grop{
+      // position: relative;
+      // right: 205px;
+      border: 1px solid#AAA;
+      padding: 20px 20px 0 20px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.card-us{
+  margin-bottom: 320px;
+  &__titule{
+    text-align: center;
+  }
+
+  &__cart{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 320px;
+  
+   
+    
+  }
+}
+

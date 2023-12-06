@@ -1,0 +1,14 @@
+@use "../global";
+@use"../utils/mixins.scss" as mx;
+
+
+.about-us{
+  padding-top:128px ;
+  margin-bottom: 320px;
+  text-align: center;
+  &__titule{
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+  }
+}
