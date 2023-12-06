@@ -12,7 +12,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ul {
@@ -51,6 +52,7 @@ main {
   top: 100px;
   left: 0;
   background: #BB2339;
+  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   color: #fff;
@@ -69,13 +71,17 @@ main {
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   left: 590px;
 }
 .menu__box-cart .card {
   width: 300px;
 }
 .menu .menu-aa {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 45px;
 }
